@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NGO Management</title>
+  <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+  <h1>NGO Management</h1>
+
+  <form action="/create" method="POST">
+    <input type="text" name="name" placeholder="Name" required>
+    <input type="number" name="contact" placeholder="Contact" required>
+    <button type="submit">Create NGO</button>
+  </form>
+
+  <h2>NGOs</h2>
+  <ul>
+    <% ngos.forEach((ngo) => { %>
+      <li>
+        <h3><%= ngo.name %></h3>
+        <p>Contact: <%= ngo.contact %></p>
+        <form action="/update/<%= ngo._id %>" method="POST">
+          <input type="text" name="name" placeholder="New Name">
+          <input type="number" name="contact" placeholder="New Contact">
+          <button type="submit">Update</button>
+        </form>
+        <form action="/delete/<%= ngo._id %>" method="POST">
+          <button type="submit">Delete</button>
+        </form>
+      </li>
+    <% }); %>
+  </ul>
+</body>
+</html>
