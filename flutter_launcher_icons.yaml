@@ -1,0 +1,11 @@
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/photos/photo1.jpg"
+  image_path_ios: "assets/photos/photo1.jpg"
+  image_path_android: "assets/photos/photo1.jpg"
+  adaptive_icon_background: "#FF6600"
+  adaptive_icon_foreground: "assets/photos/photo1.jpg"
+  android_grayscale_icon: true
+  android_adaptive_icon_foreground: "assets/photos/photo1.jpg"
+  android_adaptive_icon_background: "#FF6600"

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "965234385388",
+    "project_id": "freedom365-9af47",
+    "storage_bucket": "freedom365-9af47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965234385388:android:8afe0dd65f9f054c0d20c9",
+        "android_client_info": {
+          "package_name": "com.freedom365.freedom365_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "965234385388-iuv4fcrcmo3npq65jc4no8r32bbd1m9j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freedom365.freedom365_app",
+            "certificate_hash": "8383c8b01d2bc6a248b7c11c3ed36c6ae473dbd5"
+          }
+        },
+        {
+          "client_id": "965234385388-j1smna8tejrh7ks9in7u0tpim4658c3q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.freedom365.freedom365_app",
+            "certificate_hash": "9b86c3486a7924d4fe37eb95e4905a992475aee9"
+          }
+        },
+        {
+          "client_id": "965234385388-slpnggos88ed7ib8rfo24nkrg1gcqi6m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKlylMrSUSwtgNA8P_iBV3jtuZGaJ_IGI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "965234385388-slpnggos88ed7ib8rfo24nkrg1gcqi6m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
